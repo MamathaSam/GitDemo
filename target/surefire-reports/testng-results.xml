@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-23T15:02:53 IST" name="Suite" finished-at="2023-02-23T15:03:12 IST" duration-ms="19361">
+    <groups>
+      <group name="ErrorHandiling">
+        <method signature="ErrorValidations.logInPageErrorValidation()[pri:0, instance:Selenium.SeleniumFrameworkDesign.Test.ErrorValidations@6aeb35e6]" name="logInPageErrorValidation" class="Selenium.SeleniumFrameworkDesign.Test.ErrorValidations"/>
+      </group> <!-- ErrorHandiling -->
+    </groups>
+    <test started-at="2023-02-23T15:02:53 IST" name="SubmitOrderTest" finished-at="2023-02-23T15:02:53 IST" duration-ms="20">
+    </test> <!-- SubmitOrderTest -->
+    <test started-at="2023-02-23T15:02:53 IST" name="ErrorValidations" finished-at="2023-02-23T15:03:12 IST" duration-ms="19361">
+      <class name="Selenium.SeleniumFrameworkDesign.Test.ErrorValidations">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:Selenium.SeleniumFrameworkDesign.Test.ErrorValidations@6aeb35e6]" started-at="2023-02-23T15:02:53 IST" name="lunchApplication" finished-at="2023-02-23T15:03:10 IST" duration-ms="17572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="logInPageErrorValidation()[pri:0, instance:Selenium.SeleniumFrameworkDesign.Test.ErrorValidations@6aeb35e6]" started-at="2023-02-23T15:03:10 IST" name="logInPageErrorValidation" finished-at="2023-02-23T15:03:12 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInPageErrorValidation -->
+      </class> <!-- Selenium.SeleniumFrameworkDesign.Test.ErrorValidations -->
+    </test> <!-- ErrorValidations -->
+  </suite> <!-- Suite -->
+</testng-results>
